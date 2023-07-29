@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5a70b74334f04a3ec96dd49c0cdbc, type: 3}
+  m_Name: PlayerCharacter
+  m_EditorClassIdentifier: 
+  _hitPoints: 100
+  _speed: 8
+  _damage: 20
+  _delayAfterAttack: 0.4
+  _projectileFlyTime: 0.25
+  _locationRadius: 8
+  _collisionDamage: 11
+  _projectilePrefab: {fileID: 3887552786480949091, guid: 92bf5876b08f0224297fa2e77e1b2ba1, type: 3}
+  _hitParticlePrefab: {fileID: -708911309296308647, guid: 5166e89fe5a139f4b834a11b4bf4577c, type: 3}
