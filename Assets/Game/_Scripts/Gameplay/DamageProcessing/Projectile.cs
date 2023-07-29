@@ -30,8 +30,10 @@ namespace Gameplay.DamageProcessing
         {
             _settings = settings;
             _attackFactory = attackFactory;
-            _targetPosition = target.position;
-            _originalPosition = transform.position;
+            Vector3 position = transform.position;
+            Vector3 direction = (target.position - position).normalized;
+            _targetPosition = position + direction * 20f;
+            _originalPosition = position;
             _trail.Play();
             
             StopMoving();

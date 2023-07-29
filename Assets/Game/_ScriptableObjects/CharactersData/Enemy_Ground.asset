@@ -16,7 +16,7 @@ MonoBehaviour:
   _speed: 5
   _damage: 10
   _delayAfterAttack: 1
-  _projectileFlyTime: 0.85
+  _projectileFlyTime: 2
   _locationRadius: 5
   _collisionDamage: 11
   _projectilePrefab: {fileID: 3887552786480949091, guid: ee6edbbcb1d9f434b9393b0e5a50416b, type: 3}
